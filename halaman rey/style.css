@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background:white;
+}
+
+
+/* navbar */
+.navbar{
+    background:aquamarine ;
+    margin: 0;
+    padding: 20px 30px;
+}
+
+
+.logo{
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tombol{
+    display: none;
+    color: white;
+    font-size: 14pt;
+}
+
+.tombol :hover{
+    cursor: pointer;
+}
+
+.menu{
+    margin: 0;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li{
+    padding-left: 0;
+    margin-right: 10pt;
+}
+
+.menu a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* navbar */
+
+/* bg */
+.bg{
+width: 100px;
+height: 100px;
+position: absolute; 
+left: 0;
+z-index: -1;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+/* bg */
+
+/* btn */
+.btn {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    
+}
+
+.btn a {
+    text-decoration: none;
+    width: 100%;
+}
+
+button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: black 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    width: 20%;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    letter-spacing: 3px;
+    background-color: aqua;
+    color: black;
+    box-shadow: white 0px 7px 29px 0px;
+}
+
+button:active {
+    letter-spacing: 3px;
+    background-color: aqua;
+    color: black;
+    box-shadow: aqua 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+/* btn */
+
+/* content */
+.content{
+    position:relative;
+    text-align: center;
+    color: white;
+    font-family: poppins;
+    margin: 10px;
+    margin-top: 200px;
+    padding: 60px;
+}
+
+/* content */
+
+
+/* section */
+.content2{
+    text-align: center;
+    justify-content: center;
+    color:black;
+    padding: 10px;
+    margin: 400px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: aquamarine;
+    opacity: 80%;
+    display: block;
+    
+   
+}
+   
+
+/* section */
+
+
+
+
+
+
