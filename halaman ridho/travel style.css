@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sanrioimg{
+  width: 50px;
+  align-items: left;
+  justify-content: left;
+  padding: 10px ;
+}
+
+.sanrio{
+  margin: 10px;
+}
+
+.navbar {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.navbar img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar h2 {
+  margin: 0;
+  font-size: 34px;
+  font-family: 'fontnavbar';
+  src: url('fonts/centaur regular.ttf') format('truetype');
+  
+}
