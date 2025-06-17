@@ -2,13 +2,13 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background:white;
+    
 }
 
 
 /* navbar */
 .navbar{
-    background:aquamarine ;
+    background: #00a86b;
     margin: 0;
     padding: 20px 30px;
 }
@@ -55,20 +55,25 @@ body{
     text-decoration: none;
     display: inline-block;
 }
-
 /* navbar */
 
 /* bg */
 .bg{
-width: 100px;
-height: 100px;
+width: 10%;
+height: 80%;
 position: absolute; 
 left: 0;
 z-index: -1;
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+}
 
+.bg img{
+    width: 205vh;
+    height: 100vh;
+    /* opacity: 80%; */
+    
 }
 
 /* bg */
@@ -79,7 +84,7 @@ background-repeat: no-repeat;
     flex-direction: column;
     gap: 15px;
     align-items: center;
-    
+    text-decoration: none;
 }
 
 .btn a {
@@ -91,7 +96,7 @@ button {
     padding: 17px 40px;
     border-radius: 50px;
     border: 0;
-    background-color: white;
+    background-color:  white;
     box-shadow: black 0 0 8px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -100,36 +105,56 @@ button {
     width: 20%;
     cursor: pointer;
     
+    
 }
 
 button:hover {
     letter-spacing: 3px;
-    background-color: aqua;
+    background-color:  #00a86b;
     color: black;
     box-shadow: white 0px 7px 29px 0px;
 }
 
 button:active {
     letter-spacing: 3px;
-    background-color: aqua;
+    background-color:  white;
     color: black;
-    box-shadow: aqua 0px 0px 0px 0px;
+    box-shadow: #00a86b 0px 0px 0px 0px;
     transform: translateY(10px);
     transition: 100ms;
 }
 /* btn */
 
 /* content */
-.content{
+.content1{
     position:relative;
     text-align: center;
-    color: white;
+    justify-content: center;
     font-family: poppins;
     margin: 10px;
     margin-top: 200px;
     padding: 60px;
+    bottom: 70%;
 }
 
+.content1 h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    background-color: #00a86b;
+    border-radius: 8px;
+    display: block;
+}
+
+.content1 h3{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color:#00a86b ;
+    opacity: 85%;
+    display: inline;
+    border-radius: 8px;
+}
 /* content */
 
 
@@ -139,19 +164,69 @@ button:active {
     justify-content: center;
     color:black;
     padding: 10px;
-    margin: 400px;
+    margin: 200px;
+    margin-top: 500px;
     border: 1px solid white;
     border-radius: 8px;
-    background-color: aquamarine;
-    opacity: 80%;
+    background-color: #00a86b;
+    opacity: 70%;
     display: block;
-    
-   
 }
-   
+   .section{
+    margin: 100px; 
+    padding: 100px;
 
+   }
+
+   .content2 h1{
+    font-size: 40px;
+   }
 /* section */
 
+
+/* kategori */
+.kategori{
+   display: flex;
+
+
+}
+.kotak{
+  padding: 70px;  
+  border-radius: 20px;
+  margin-left: 10px;
+  height: 400px;
+  background-color: rgb(192, 192, 192);
+  flex: 1;
+  transition: .3s all ease;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.kotak:hover{
+    flex: 2;
+    background-color:aquamarine;
+
+}
+
+.kotak img{
+    padding: 10px;
+    width: 30vh;
+    border-radius: 8px;
+    justify-content: center;
+    margin-left: 10px;
+   
+}
+
+h1{
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    font-size: 40px;
+
+}
+
+/* kategori */
 
 
 
