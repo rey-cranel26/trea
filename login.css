@@ -91,6 +91,7 @@ button {
     transition: all 0.5s ease;
     width: 100%;
     cursor: pointer;
+    list-style: none;
 }
 
 button:hover {
@@ -104,7 +105,7 @@ button:active {
     letter-spacing: 3px;
     background-color: #00a86b;;
     color: black;
-    box-shadow: #00a86b; 0px 0px 0px 0px;
+    box-shadow: #00a86b; 
     transform: translateY(10px);
     transition: 100ms;
 }

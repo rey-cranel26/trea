@@ -372,48 +372,103 @@ h1{
 /* kategori */
 
 /* footer */
+
+/* Footer utama */
+/* Footer utama */
 footer {
-
-    background-color: #00a86b;
-    color: #fff;
-    padding: 20px;
-    border: 1px solid white;
-    border-radius: 10px;
-    
-
+  background-color: #00a86b;
+  color: #fff;
+  padding: 30px 20px;
+  font-family: 'poppins' sans-serif;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.footer-content, .footer-links, .social-media, .footer-bottom {
-    margin-bottom: 15px;
-    
-
+/* Kontainer isi footer */
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+/* Tiap kolom footer */
+.footer-wrapper > div {
+  flex: 1;
+  min-width: 250px;
+  padding: 10px;
+}
+
+/* Judul tiap bagian */
+.footer-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Navigasi */
 .footer-links ul {
-    list-style-type: none;
-    padding: 0;
-
+  list-style: none;
+  padding: 0;
 }
 
 .footer-links li {
-    display: inline;
-    margin-right: 20px;
-
+  margin-bottom: 8px;
 }
 
 .footer-links a {
-    color: #fff;
-    text-decoration: none;
-
+  color: #fff;
+  text-decoration: none;
 }
 
-.social-media img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+.footer-links a:hover {
+  text-decoration: underline;
 }
 
+/* Sosial media ke bawah */
+.social-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
+.social-list li {
+  margin-bottom: 10px;
+}
+
+.social-list a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.social-list img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-list img:hover {
+  transform: scale(1.2);
+}
+
+/* Kontak */
+.footer-contact ul{
+  list-style: none;
+}
+
+/* Footer bawah */
+.footer-bottom {
+  text-align: center;
+  font-size: 13px;
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+  margin-top: 20px;
+}
 
 /* footer */
 
