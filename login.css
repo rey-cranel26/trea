@@ -63,8 +63,8 @@ h1 {
 
 .input input:focus {
     outline: none;
-    border-color: #1877f2;
-    box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.2);
+    border-color: #00a86b;;
+    box-shadow: 0 0 0 2px rgba(11, 121, 2, 0.2);
 }
 
 .button-g {
@@ -95,16 +95,16 @@ button {
 
 button:hover {
     letter-spacing: 3px;
-    background-color: aqua;
+    background-color: #00a86b;;
     color: black;
     box-shadow: white 0px 7px 29px 0px;
 }
 
 button:active {
     letter-spacing: 3px;
-    background-color: aqua;
+    background-color: #00a86b;;
     color: black;
-    box-shadow: aqua 0px 0px 0px 0px;
+    box-shadow: #00a86b; 0px 0px 0px 0px;
     transform: translateY(10px);
     transition: 100ms;
 }

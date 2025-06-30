@@ -7,54 +7,191 @@ body{
 
 
 /* navbar */
-.navbar{
-    background: #00a86b;
-    margin: 0;
-    padding: 20px 30px;
+.logo1 {
+  display: flex;
+  align-items: center;
+  font-size: 14pt;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  word-spacing: 5px;
+  gap: 8px;
 }
 
+.logo1 img{
+  display: block;
+  margin-bottom: 2px;
+  height: 50px;
+  width: 50px;
+}
 
-.logo{
+.navi{
+    background-color: #00a86b;
+    margin: 0;
+    padding: 20px 30px;
+
+}
+
+.logo1{
     font-size: 14pt;
     font-weight: bold;
     text-decoration: none;
     color: white;
 }
 
-.container{
+.container3{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .tombol{
-    display: none;
-    color: white;
-    font-size: 14pt;
-}
-
-.tombol :hover{
     cursor: pointer;
 }
 
-.menu{
+.menu1{
     margin: 0;
     display: flex;
     list-style: none;
     padding: 0;
 }
 
-.menu li{
-    padding-left: 0;
-    margin-right: 10pt;
+.menu2:hover{
+    transform:scale(1.2) ;
+    background-color: #37d098;
+    border-radius: 8px;
+    
+    
 }
 
-.menu a{
+.menu3:hover{
+    transform:scale(1.2) ;
+    background-color:  #37d098;
+    border-radius: 8px;
+    
+    
+    
+}
+.menu4:hover{
+    transform:scale(1.2) ;
+    background-color:  #37d098;
+    border-radius: 8px;
+    
+    
+}
+.menu5:hover{
+    transform:scale(1.2) ;
+    background-color:  #37d098;
+    border-radius: 8px;
+    
+
+}
+
+.menu1 li{
+
+    padding-left: 0;
+    margin-right: 10px;
+}
+
+.menu1 li a{
     padding: 10px;
     color: white;
     text-decoration: none;
     display: inline-block;
 }
+
+.header{
+    font-weight: 500;
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* font-family: 'poppins'; */
+}
+
+.foto{
+    margin-left: 20px;
+  
+}
+
+.bulat img{
+    transition: transform 0.3s ease;
+}
+
+.bulat:hover {
+    transform: scale(1.2);
+}
+
+.bulat{
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.jarak{
+    border-radius: 30px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.jarak img{
+    transition: transform 0.3s ease;
+}
+
+.jarak:hover{
+    transform:scale(1.2) ;
+
+}
+.jarak1{
+    border-radius: 30px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.jarak1 img{
+    transition: transform 0.3s ease;
+}
+
+.jarak1:hover{
+    transform: scale(1.2);
+}
+
+
+.container1{
+    font-size: 20px;
+    margin-top: 100px;  
+    margin-bottom: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:whitesmoke;
+    opacity:50%;
+    border-radius: 10px;
+    border-left: 100px;
+    border-right: 100px;
+    text-align: center;
+    /* font-family:'poppins'; */
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    
+}
+
+.container2{
+    font-size: 20px;
+    margin-top: 100px;  
+    margin-bottom: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:whitesmoke;
+    opacity:50%;
+    border-radius: 10px;
+    border-left: 100px;
+    border-right: 100px;
+    text-align: center;
+    /* font-family:'poppins'; */
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 45px;   
+  }
 /* navbar */
 
 /* bg */
@@ -78,8 +215,42 @@ background-repeat: no-repeat;
 
 /* bg */
 
+
+/* content */
+.content1{
+    position:relative;
+    text-align: center;
+    justify-content: center;
+    font-family: poppins;
+    margin: 10px ;
+    margin-top: 100px;
+    padding: 60px;
+    bottom: 70%;
+}
+
+.content1 h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    background-color: #00a86b;
+    border-radius: 8px;
+    display:inline ;
+}
+
+.content1 h3{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color:none ;
+    /* opacity: 85%; */
+    display: block;
+    border-radius: 8px;
+}
+/* content */
+
 /* btn */
 .btn {
+    margin-bottom: 220px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -104,6 +275,7 @@ button {
     transition: all 0.5s ease;
     width: 20%;
     cursor: pointer;
+   
     
     
 }
@@ -125,37 +297,7 @@ button:active {
 }
 /* btn */
 
-/* content */
-.content1{
-    position:relative;
-    text-align: center;
-    justify-content: center;
-    font-family: poppins;
-    margin: 10px;
-    margin-top: 200px;
-    padding: 60px;
-    bottom: 70%;
-}
 
-.content1 h1{
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
-    background-color: #00a86b;
-    border-radius: 8px;
-    display: block;
-}
-
-.content1 h3{
-    font-size: 20px;
-    color: white;
-    font-weight: bold;
-    background-color:#00a86b ;
-    opacity: 85%;
-    display: inline;
-    border-radius: 8px;
-}
-/* content */
 
 
 /* section */
@@ -163,23 +305,23 @@ button:active {
     text-align: center;
     justify-content: center;
     color:black;
-    padding: 10px;
-    margin: 200px;
-    margin-top: 500px;
+    padding: 40px;
+    margin: 100px;
+    margin-top: 700px;
+    margin-bottom: 200px;
     border: 1px solid white;
     border-radius: 8px;
     background-color: #00a86b;
-    opacity: 70%;
+    /* opacity: 70%; */
     display: block;
 }
-   .section{
-    margin: 100px; 
-    padding: 100px;
-
-   }
-
+   
    .content2 h1{
     font-size: 40px;
+   }
+
+   .content2 p{
+    font-size: 20px;
    }
 /* section */
 
@@ -194,7 +336,8 @@ button:active {
   padding: 70px;  
   border-radius: 20px;
   margin-left: 10px;
-  height: 400px;
+  margin-bottom: 200px;
+  height: 410px;
   background-color: rgb(192, 192, 192);
   flex: 1;
   transition: .3s all ease;
@@ -205,14 +348,14 @@ button:active {
 
 .kotak:hover{
     flex: 2;
-    background-color:aquamarine;
+    background-color:#00a86b;
 
 }
 
 .kotak img{
     padding: 10px;
     width: 30vh;
-    border-radius: 8px;
+    border-radius: 50px;
     justify-content: center;
     margin-left: 10px;
    
@@ -228,6 +371,51 @@ h1{
 
 /* kategori */
 
+/* footer */
+footer {
+
+    background-color: #00a86b;
+    color: #fff;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+
+}
+
+.footer-content, .footer-links, .social-media, .footer-bottom {
+    margin-bottom: 15px;
+    
+
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 20px;
+
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+
+/* footer */
 
 
 

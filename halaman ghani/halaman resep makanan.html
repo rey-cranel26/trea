@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumpulan Resep Untuk Travelling</title>
+    <style>
+        body {
+            background-image: url('background-makanan.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: black;
+            color: yellow;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        main {
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            font-family: Georgia, serif;
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            font-style: italic;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 1.5em;
+        }
+
+        img[alt="Gambar chef"] {
+            display: block;
+            margin: 0 auto 30px auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            margin-top: 30px;
+            margin-bottom: 1em;
+        }
+
+        .recipe-grid {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .recipe-item {
+            text-align: center;
+            flex-basis: 200px; 
+        }
+
+        .recipe-item a {
+            color: yellow;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .recipe-item a:hover {
+            text-decoration: underline;
+            transform: translateY(-5px);
+        }
+
+        .recipe-item img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 2px solid yellow;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .recipe-item p { 
+            font-weight: bold;
+            font-size: 1.1em;
+            display: block;
+            margin-bottom: 0; 
+        }
+
+    </style>
+</head>
+<body>
+    <header> 
+        <h1><b>Kumpulan Resep Untuk Travelling</b></h1>
+        <p>Temukan inspirasi masakan favoritmu di sini!</p>
+    </header>
+
+    <main>
+        <img src="chef4.jpg" alt="Gambar chef" width="450">
+        
+        <h2>Pilih Resep Favoritmu:</h2>
+        
+        <div class="recipe-grid">
+            <div class="recipe-item">
+                <a href="resep-sandwich-daging.html">
+                    <img src="sandwich daging.jpg" alt="Gambar sandwich daging">
+                    <p><b>Sandwich Daging</b></p>
+                </a>
+            </div>
+
+            <div class="recipe-item">
+                <a href="resep-nasi-goreng.html">
+                    <img src="nasi goreng.jpg" alt="Gambar Nasi Goreng">
+                    <p><b>Nasi Goreng</b></p>
+                </a>
+            </div>
+
+            <div class="recipe-item">
+                <a href="resep-sayur-sop.html">
+                    <img src="sop sayur.jpeg" alt="Gambar Sayur Sop">
+                    <p><b>Sayur Sop</b></p>
+                </a>
+            </div>
+
+            <div class="recipe-item">
+                <a href="oseng-tahu-tempe.html">
+                    <img src="oseng tahu tempe.jpg" alt="Gambar Oseng Tahu Tempe">
+                    <p><b>Oseng Tahu Tempe</b></p>
+                </a>
+            </div>
+
+            <div class="recipe-item">
+                <a href="omelet-telur.html">
+                    <img src="omelet telur.jpg" alt="Gambar Omelet Telur">
+                    <p><b>Omelet Telur</b></p>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>
