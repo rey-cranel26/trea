@@ -1,77 +1,79 @@
-/* === GLOBAL SETUP === */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   background: url('Media/entralinkwp2.jpg') no-repeat center top fixed;
   background-size: cover;
   color: #000;
 }
 
-/* === NAVBAR === */
-.navbar {
-  background: #00A86B;
-  padding: 20px 30px;
+.deskripsi p{
+  font-family: 'Poppins', sans-serif;
 }
 
-.logo {
-  font-size: 14pt;
-  font-weight: bold;
-  text-decoration: none;
-  color: white;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.tombol {
-  display: none;
-  color: white;
-  font-size: 14pt;
-}
-
-.menu {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu li {
-  margin-right: 10pt;
-}
-
-.menu a {
-  padding: 10px;
-  color: white;
-  text-decoration: none;
-}
-
-/* === KONTEN UTAMA === */
 .content {
   padding: 20px;
 }
 
-/* === PARAGRAF PEMBUKA & PENUTUP === */
+.content h1{
+  text-align: center;
+  font-size: 30px;
+}
+
+/* higlight Maps */
+.highlight-maps {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 12px;
+  margin: 30px auto;
+  max-width: 400px;
+  color: #333;
+  line-height: 1.6;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+}
+
+/* higlight paragraf */
 .highlight-box {
   background-color: rgba(255, 255, 255, 0.85);
   padding: 20px;
   border-radius: 12px;
   margin: 30px auto;
-  max-width: 800px;
+  max-width: 1000px;
   color: #333;
   font-size: 1.1em;
   line-height: 1.6;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
   text-align: center;
-  transition: transform 0.6s ease;
-  cursor: default;
+}
+
+.highlight-box h1{
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.highlight-box p{
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/* highlight title*/
+.highlight-title {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 12px;
+  margin: 30px auto;
+  max-width: 600px;
+  color: #333;
+  font-size: 1.1em;
+  line-height: 1.6;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 
-/* === DESTINASI WISATA === */
+/* Destinasi */ 
 .destination-box {
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 12px;
@@ -82,17 +84,31 @@ body {
   transition: transform 0.6s ease;
   text-align: center;
   transform: scale(1);
-  cursor: pointer; /* Menambahkan animasi cursor */
+  cursor: pointer; 
+}
+.destination-highlight {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 1000px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.6s ease;
+  text-align: center;
+}
+
+.destination-highlight p{
+  text-align: left;
 }
 
 .destination-box:hover {
   transform: scale(0.97);
 }
 
-/* === GAMBAR DESTINASI === */
+/* gambar */
 .destination-img {
   width: 100%;
-  max-width: 600px;  /* Dikurangi dari sebelumnya 700px */
+  max-width: 500px;  
   border-radius: 10px;
   margin-bottom: 15px;
   transition: transform 0.6s ease;
@@ -102,7 +118,7 @@ body {
   transform: none;
 }
 
-/* === JUDUL LINK DESTINASI === */
+/* judul destinasi */
 .destination-title {
   font-weight: bold;
   font-size: 1.3em;
@@ -117,3 +133,17 @@ body {
   color: #005999;
 }
 
+/* maps */
+.maps{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.maps iframe {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: 300px;
+  width: 300px;
+  border: 0;
+}

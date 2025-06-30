@@ -1,0 +1,410 @@
+body {
+    font-family: 'BrightAura', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+@font-face {
+    font-family: 'BrightAura';
+    src: url('Bright\ Aura.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* navbar */
+.logo1 {
+    display: flex;
+    align-items: center;
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    word-spacing: 5px;
+    gap: 8px;
+}
+
+.logo1 img {
+    display: block;
+    margin-bottom: 2px;
+    height: 50px;
+    width: 50px;
+}
+
+.navi {
+    background-color: #00a86b;
+    margin: 0;
+    padding: 20px 30px;
+}
+
+.logo1 {
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tombol {
+    cursor: pointer;
+}
+
+.menu1 {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.menu2:hover {
+    transform: scale(1.2);
+    background-color: #37d098;
+    border-radius: 8px;
+}
+
+.menu3:hover {
+    transform: scale(1.2);
+    background-color: #37d098;
+    border-radius: 8px;
+}
+
+.menu4:hover {
+    transform: scale(1.2);
+    background-color: #37d098;
+    border-radius: 8px;
+}
+
+.menu5:hover {
+    transform: scale(1.2);
+    background-color: #37d098;
+    border-radius: 8px;
+}
+
+.menu1 li {
+    padding-left: 0;
+    margin-right: 10px;
+}
+
+.menu1 li a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: #00C896;
+    color: white;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.subtitle {
+    font-size: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+
+
+.layanan {
+    background-color: #007F5F;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.layanan ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+
+}
+
+.layanan li {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    gap: 10px;
+
+}
+
+
+
+.portofolio {
+    background-color: #00C896;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.placeholder {
+    background: #ffffff;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #7f8c8d;
+    font-weight: bold;
+}
+
+
+
+
+.harga {
+    background-color: #007F5F;
+}
+
+.keterangan {
+    color: #ffffff;
+}
+
+.perTingkat {
+    display: flex;
+    color: #ffffff ;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.perTingkat div {
+    border: 3px solid #ffffff;
+    padding: 16px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.kontak {
+    background-color: #00C896;
+    color: #ffffff;
+}
+
+.metode-kontak {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.metode-kontak div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+footer css
+/* Footer utama */
+footer {
+  background-color: #00a86b;
+  color: #fff;
+  padding: 30px 20px;
+  font-family: Arial, sans-serif;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Kontainer isi footer */
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Tiap kolom footer */
+.footer-wrapper > div {
+  flex: 1;
+  min-width: 250px;
+  padding: 10px;
+}
+
+/* Judul tiap bagian */
+.footer-title {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Navigasi */
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+
+/* Footer utama */
+footer {
+  background-color: #00C896;
+  color: #000;
+  padding: 30px 20px;
+  font-family: Arial, sans-serif;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Kontainer isi footer */
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Tiap kolom footer */
+.footer-wrapper > div {
+  flex: 1;
+  min-width: 250px;
+  padding: 10px;
+}
+
+/* Judul tiap bagian */
+.footer-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Navigasi */
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Sosial media ke bawah */
+.social-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-list li {
+  margin-bottom: 10px;
+}
+
+.social-list a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.social-list img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.social-list img:hover {
+  transform: scale(1.2);
+}
+
+/* Kontak */
+.footer-contact p {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+/* Footer bawah */
+.footer-bottom {
+  text-align: center;
+  font-size: 13px;
+  color: #ffffff;
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+  margin-top: 20px;
+}
