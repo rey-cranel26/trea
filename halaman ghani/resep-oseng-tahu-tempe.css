@@ -1,0 +1,83 @@
+/* resep-oseng-tahu-tempe.css */
+
+/* Gaya untuk container utama konten resep */
+.container-resep {
+    font-size: 20px;
+    margin-top: 100px; /* Jarak dari atas, disesuaikan agar tidak tertutup navbar */
+    margin-bottom: 50px; /* Jarak dari footer */
+    margin-left: auto; /* Untuk menengahkan container */
+    margin-right: auto; /* Untuk menengahkan container */
+    width: 80%; /* Atur lebar container */
+    max-width: 900px; /* Batasi lebar maksimum */
+    background-color: rgba(255, 255, 255, 0.9); /* Background putih sedikit transparan */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+    text-align: left; /* Konten di dalam container rata kiri */
+    padding: 30px; /* Padding di dalam container */
+    box-sizing: border-box; /* Penting agar padding tidak menambah lebar */
+    color: #333; /* Warna teks umum di dalam container resep */
+}
+
+/* Sesuaikan Judul Utama Resep */
+.container-resep h1 {
+    color: #00a86b; /* Warna hijau seperti logo/navbar */
+    font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
+    font-size: 2.8em;
+    text-align: center; /* Judul tetap rata tengah */
+    margin-bottom: 25px;
+}
+
+/* Gaya untuk gambar resep */
+.recipe-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #00a86b; /* Border warna hijau */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Gaya untuk sub-judul (Bahan-bahan, Cara Membuat) */
+.container-resep h2 {
+    color: #007a50; /* Warna hijau yang lebih gelap dari #00a86b */
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: left; /* Rata kiri */
+}
+
+/* Gaya untuk daftar (ul dan ol) */
+.container-resep ul,
+.container-resep ol {
+    list-style-position: inside; /* Bullet/numbering di dalam konten list */
+    padding-left: 0; /* Menghilangkan padding default */
+    margin-bottom: 30px;
+}
+
+.container-resep ul li,
+.container-resep ol li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+/* Gaya untuk tombol "Kembali ke Daftar Resep" */
+.back-button {
+    display: inline-block;
+    background-color: #00a86b;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: #37d098;
+}

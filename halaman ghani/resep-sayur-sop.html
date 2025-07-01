@@ -4,89 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resep Sayur Sop Sehat - Kumpulan Resep Makanan Lezat</title>
-    <style>
-        body {
-            background-image: url('background-makanan.png'); /* Pastikan gambar ini ada */
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-color: black;
-            color: yellow;
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #333;
-            border-radius: 8px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-            text-align: left;
-        }
-
-        h1 {
-            color: yellow;
-            font-family: 'Georgia', serif;
-            font-size: 2.8em;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .recipe-image {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 25px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            border: 2px solid yellow;
-        }
-
-        h2 {
-            color: #FFD700;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            font-size: 1.8em;
-            text-align: left;
-        }
-
-        ul, ol {
-            list-style-position: inside;
-            padding-left: 0;
-            margin-bottom: 20px;
-        }
-
-        ul li, ol li {
-            margin-bottom: 8px;
-            font-size: 1.1em;
-        }
-
-        .back-button {
-            display: inline-block;
-            margin-top: 30px;
-            padding: 10px 20px;
-            background-color: #555;
-            color: yellow;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        .back-button:hover {
-            background-color: #777;
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="sayur-sop.css"> <link rel="stylesheet" href="foote.css">
 </head>
 <body>
-    <div class="container">
+    <nav class="navi">
+        <div class="container3">
+            <a href="halaman resep makanan.html" class="logo1">
+                <img src="media/logotrea.png" alt="Logo Trea">
+                Trea
+            </a>
+            <ul class="menu1">
+                <li class="menu2"><a href="halaman resep makanan.html">Home</a></li>
+                <li class="menu3"><a href="#">Tentang</a></li>
+                <li class="menu4"><a href="#">Visi dan Misi</a></li>
+                <li class="menu5"><a href="#">Kontak kami</a></li>
+            </ul>
+            <div class="tombol"></div>
+        </div>
+    </nav>
+
+    <div class="container-resep">
         <h1>Resep Sayur Sop Sehat</h1>
 
         <img src="sop sayur.jpeg" alt="Gambar Sayur Sop" class="recipe-image">
@@ -120,5 +59,37 @@
 
         <a href="halaman resep makanan.html" class="back-button">Kembali ke Daftar Resep</a>
     </div>
+
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-links">
+                <p class="footer-title">Navigasi</p>
+                <ul>
+                    <li><a href="tentang-kami.html">Tentang Kami</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                    <li><a href="kebijakan-privasi.html">Kebijakan Privasi</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <p class="footer-title">Ikuti Kami</p>
+                <ul class="social-list">
+                    <li><a href="#"><img src="media/fb.png" alt="Facebook"> Facebook</a></li>
+                    <li><a href="#"><img src="media/x.png" alt="Twitter"> Twitter</a></li>
+                    <li><a href="#"><img src="media/ig.png" alt="Instagram"> Instagram</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <p class="footer-title">Kontak Kami</p>
+                <p>Email: trea@gmail.com</p>
+                <p>Alamat: Jln. Kenangan No. 99</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Hak Cipta &copy; 2025 website resmi. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
 </body>
 </html>

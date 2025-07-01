@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 90px;
+    background-image: url('background-makanan.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+.hero-section {
+    background-image: url('chef4.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    position: relative;
+    margin-top: -90px;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+}
+
+.hero-content h2 {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #00a86b;
+    color: #333;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #37d098;
+}
+
+.categories-section {
+    padding: 60px 20px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.categories-section h3 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.category-item {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    color: black;
+}
+
+.category-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.category-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.category-item h4 {
+    font-size: 1.5em;
+    margin: 15px 0 10px;
+    color: #00a86b;
+}
+
+.category-item p {
+    padding: 0 15px 15px;
+    font-size: 0.95em;
+    color: #555;
+}

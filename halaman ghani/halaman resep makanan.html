@@ -3,149 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kumpulan Resep Untuk Travelling</title>
-    <style>
-        body {
-            background-image: url('background-makanan.png');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-color: black;
-            color: yellow;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-        }
-
-        main {
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        h1 {
-            font-family: Georgia, serif;
-            font-size: 2.5em;
-            margin-bottom: 0.5em;
-            font-style: italic;
-        }
-
-        p {
-            font-size: 1.2em;
-            margin-bottom: 1.5em;
-        }
-
-        img[alt="Gambar chef"] {
-            display: block;
-            margin: 0 auto 30px auto;
-            max-width: 100%;
-            height: auto;
-        }
-
-        h2 {
-            margin-top: 30px;
-            margin-bottom: 1em;
-        }
-
-        .recipe-grid {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
-            margin-top: 20px;
-        }
-
-        .recipe-item {
-            text-align: center;
-            flex-basis: 200px; 
-        }
-
-        .recipe-item a {
-            color: yellow;
-            text-decoration: none;
-            display: block;
-            padding: 10px;
-            transition: transform 0.3s ease-in-out;
-        }
-
-        .recipe-item a:hover {
-            text-decoration: underline;
-            transform: translateY(-5px);
-        }
-
-        .recipe-item img {
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border: 2px solid yellow;
-            border-radius: 10px;
-            margin-bottom: 10px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .recipe-item p { 
-            font-weight: bold;
-            font-size: 1.1em;
-            display: block;
-            margin-bottom: 0; 
-        }
-
-    </style>
+    <link rel="icon" type="image/x-icon" href="../halaman ridho/media/treaicon.ico" />
+    <title>Kumpulan Resep Untuk Travelling - Trea</title>
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="foote.css"> 
 </head>
 <body>
-    <header> 
-        <h1><b>Kumpulan Resep Untuk Travelling</b></h1>
-        <p>Temukan inspirasi masakan favoritmu di sini!</p>
-    </header>
+    <!-- navbar -->
+ <nav class="navi">
+ <div class="container3">
+    <a href="" class="logo1"><img src="../halaman rey/media/logotrea.png" alt=""> Trea</a>
+    <ul class="menu1">
+        <li><a href="../landing_pages.html" class="menu2">Home</a></li>
+        <li><a href="../Tentang.html" class="menu3">Tentang</a></li>
+        <li><a href="../VisiMisi.html" class="menu4">Visi dan Misi</a></li>
+        <li><a href="#" class="menu5">kontak kami</a></li>
+    </ul>
+    <div class="tombol">&#9776</div>
 
-    <main>
-        <img src="chef4.jpg" alt="Gambar chef" width="450">
-        
-        <h2>Pilih Resep Favoritmu:</h2>
-        
-        <div class="recipe-grid">
-            <div class="recipe-item">
+ </div>
+
+</nav>
+ <!-- navba -->
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <h2>Kumpulan Resep Untuk Travelling</h2>
+            <p>Temukan ide masakan praktis dan lezat untuk perjalanan Anda.</p>
+            <a href="#categories" class="btn-primary">Lihat Resep</a>
+        </div>
+    </div>
+
+    <div id="categories" class="categories-section">
+        <h3>Resep Terbaru</h3>
+        <div class="category-grid">
+            <div class="category-item">
                 <a href="resep-sandwich-daging.html">
-                    <img src="sandwich daging.jpg" alt="Gambar sandwich daging">
-                    <p><b>Sandwich Daging</b></p>
+                    <img src="sandwich daging.jpg" alt="Sandwich Daging">
+                    <h4>Sandwich Daging Praktis</h4>
+                    <p>Resep sandwich cepat saji yang cocok untuk bekal perjalanan.</p>
                 </a>
             </div>
-
-            <div class="recipe-item">
+            <div class="category-item">
                 <a href="resep-nasi-goreng.html">
-                    <img src="nasi goreng.jpg" alt="Gambar Nasi Goreng">
-                    <p><b>Nasi Goreng</b></p>
+                    <img src="nasi goreng.jpg" alt="Nasi Goreng">
+                    <h4>Nasi Goreng Simple</h4>
+                    <p>Resep nasi goreng yang mudah dibuat di mana saja.</p>
                 </a>
             </div>
-
-            <div class="recipe-item">
+            <div class="category-item">
                 <a href="resep-sayur-sop.html">
-                    <img src="sop sayur.jpeg" alt="Gambar Sayur Sop">
-                    <p><b>Sayur Sop</b></p>
+                    <img src="sop sayur.jpeg" alt="Sop Sayur">
+                    <h4>Sop Sayur Hangat</h4>
+                    <p>Hangatkan perjalanan Anda dengan sop sayur lezat.</p>
                 </a>
             </div>
-
-            <div class="recipe-item">
-                <a href="oseng-tahu-tempe.html">
-                    <img src="oseng tahu tempe.jpg" alt="Gambar Oseng Tahu Tempe">
-                    <p><b>Oseng Tahu Tempe</b></p>
-                </a>
-            </div>
-
-            <div class="recipe-item">
+            <div class="category-item">
                 <a href="omelet-telur.html">
-                    <img src="omelet telur.jpg" alt="Gambar Omelet Telur">
-                    <p><b>Omelet Telur</b></p>
+                    <img src="omelet telur.jpg" alt="Omelet Telur">
+                    <h4>Omelet Telur Mudah</h4>
+                    <p>Omelet telur praktis untuk sarapan cepat.</p>
                 </a>
+            </div>
+            <div class="category-item">
+                <a href="oseng-tahu-tempe.html">
+                    <img src="oseng tahu tempe.jpg" alt="Oseng Tahu Tempe">
+                    <h4>Oseng Tahu Tempe</h4>
+                    <p>Masakan rumahan yang lezat dan bergizi.</p>
+                </a>
+            </div>
+            <div class="category-item">
+                <a href="resep-lempeng-pisang.html"> <img src="lempeng pisang.jpg" alt="Lempeng Pisang"> <h4>Resep Lempeng Pisang</h4> <p>Cemilan manis dan praktis untuk energi tambahan.</p> </a>
             </div>
         </div>
-    </main>
+    </div>
 
     <footer>
+        <div class="footer-wrapper">
+            <div class="footer-links">
+                <p class="footer-title">Navigasi</p>
+                <ul>
+                    <li><a href="tentang-kami.html">Tentang Kami</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                    <li><a href="kebijakan-privasi.html">Kebijakan Privasi</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <p class="footer-title">Ikuti Kami</p>
+                <ul class="social-list">
+                    <li><a href="#"><img src="../halaman rey/media/fb.png" alt="Facebook"> Facebook</a></li>
+                    <li><a href="#"><img src="../halaman rey/media/x.png" alt="Twitter"> Twitter</a></li>
+                    <li><a href="#"><img src="../halaman rey/media/ig.png" alt="Instagram"> Instagram</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <p class="footer-title">Kontak Kami</p>
+                <p>Email: trea@gmail.com</p>
+                <p>Alamat: Jln. Kenangan No. 99</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Hak Cipta &copy; 2025 website resmi. Hak Cipta Dilindungi.</p>
+        </div>
     </footer>
 </body>
 </html>

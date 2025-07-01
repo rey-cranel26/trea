@@ -1,0 +1,76 @@
+/* resep-sandwich.css */
+
+/* Gaya untuk container utama konten resep */
+.container-resep {
+    font-size: 20px;
+    margin-top: 50px; /* Sesuaikan jarak dari navbar. Mungkin butuh lebih kecil dari padding-top body */
+    margin-bottom: 200px;
+    margin-left: auto; /* Untuk menengahkan container */
+    margin-right: auto; /* Untuk menengahkan container */
+    width: 80%; /* Atur lebar container */
+    max-width: 900px; /* Batasi lebar maksimum */
+    background-color: rgba(255, 255, 255, 0.5); /* Putih dengan opacity 50% */
+    border-radius: 10px;
+    text-align: left; /* Konten di dalam container rata kiri */
+    padding: 45px; /* Padding di dalam container */
+    box-sizing: border-box; /* Pastikan padding tidak menambah lebar */
+    color: black; /* Warna teks utama di dalam container resep */
+}
+
+/* Sesuaikan Judul Utama */
+.container-resep h1 { /* Target h1 di dalam container-resep */
+    color: yellow;
+    font-family: 'Georgia', serif;
+    font-size: 2.8em;
+    text-align: center; /* Judul tetap rata tengah */
+    margin-bottom: 20px;
+}
+
+.recipe-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid yellow;
+}
+
+h2 {
+    color: #FFD700;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    text-align: left; /* Pastikan rata kiri */
+}
+
+ul, ol {
+    list-style-position: outside; /* Ubah ke outside agar numbering/bullet tidak menempel */
+    padding-left: 20px; /* Tambahkan padding agar ada indentasi */
+    margin-bottom: 20px;
+    color: black; /* Ubah warna teks daftar agar terlihat di background putih */
+}
+
+ul li, ol li {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    color: black; /* Pastikan teks di daftar berwarna hitam */
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #555;
+    color: yellow;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Tombol rata tengah */
+}
+
+.back-button:hover {
+    background-color: #777;
+    text-decoration: underline;
+}
